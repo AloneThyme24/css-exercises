@@ -34,4 +34,10 @@ a {
 .left-links,
 .right-links {
   display: flex;
+  flex-grow: 1; /* Allows the sections to take up space */
+  justify-content: flex-start; /* Left-links items stay on the left */
+}
+
+.right-links {
+  justify-content: flex-end; /* Right-links items stay on the right */
 }
