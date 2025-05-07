@@ -31,3 +31,8 @@ img {
   justify-content: center;
   gap: 52px;
 }
+
+.item {
+  width: 200px;
+  text-align: center; /* centers the text inside each item */
+}
