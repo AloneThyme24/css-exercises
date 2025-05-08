@@ -71,3 +71,9 @@ button.cancel {
 .top-section {
   display: flex;
 }
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
