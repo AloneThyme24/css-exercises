@@ -36,6 +36,17 @@ body {
   justify-content: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -69,13 +80,5 @@ button.cancel {
   color: royalblue;
 }
 
-.header {
-  font-weight: bold;
-  font-size: 20px;
-}
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
