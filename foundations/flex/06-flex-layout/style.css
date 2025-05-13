@@ -55,3 +55,8 @@ ul {
 .footer {
   background-color: #eeeeee;
 }
+
+.buttons {
+  display: flex; /* Enables gap */
+  gap: 16px; /* Adds space between buttons */
+}
