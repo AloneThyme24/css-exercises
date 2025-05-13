@@ -51,3 +51,7 @@ ul {
   gap: 16px; /* Adds space between each link */
   list-style: none; /* Removes bullet points */
 }
+
+.footer {
+  background-color: #eeeeee;
+}
