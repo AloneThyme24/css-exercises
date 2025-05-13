@@ -43,3 +43,11 @@ input {
   gap: 24px; /* Adds space between logo, input, and buttons */
   flex-grow: 1; /*Makes content take up all available space */
 }
+
+ul {
+  display: flex; /* Makes list items sit side by side */
+  margin: 0;
+  padding: 0;
+  gap: 16px; /* Adds space between each link */
+  list-style: none; /* Removes bullet points */
+}
