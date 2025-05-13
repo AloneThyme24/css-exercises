@@ -34,3 +34,12 @@ input {
   align-items: center; /* Keeps links aligned vertically */
   padding: 16px; /* Adds breathing room */
 }
+
+.content {
+  display: flex; /* So elements can be centered inside */
+  flex-direction: column; /* Stacks elements vertically */
+  justify-content: center; /* Centers elements vertically */
+  align-items: center; /* Centers elements horizontally */
+  gap: 24px; /* Adds space between logo, input, and buttons */
+  flex-grow: 1; /*Makes content take up all available space */
+}
