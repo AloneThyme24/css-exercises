@@ -31,10 +31,10 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   flex: 1;
-  color: red;
 }
 
 .middle {
   display: flex; /* Makes sidebar and cards sit in a row */
   flex-grow: 1; /* Ensures this section fills the available space */
+  flex-wrap: wrap;
 }
