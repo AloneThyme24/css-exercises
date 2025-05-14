@@ -24,6 +24,7 @@ body {
   box-sizing: border-box;
   flex-shrink: 0; /* Keeps sidebar from shrinking */
   padding: 16px;
+  margin-left: -48px;
 }
 
 .card {
@@ -36,5 +37,6 @@ body {
 .middle {
   display: flex; /* Makes sidebar and cards sit in a row */
   flex-grow: 1; /* Ensures this section fills the available space */
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Enables card to wrap when space runs out */
+  padding: 48px;
 }
