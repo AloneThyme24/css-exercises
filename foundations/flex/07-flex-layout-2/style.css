@@ -45,3 +45,15 @@ body {
   flex-wrap: wrap; /* Enables card to wrap when space runs out */
   padding: 48px;
 }
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
