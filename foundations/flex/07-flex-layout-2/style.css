@@ -21,6 +21,9 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
@@ -44,6 +47,8 @@ body {
   flex-grow: 1; /* Ensures this section fills the available space */
   flex-wrap: wrap; /* Enables card to wrap when space runs out */
   padding: 48px;
+  gap: 16px; /* Adds space between cards */
+  align-items: stretch;
 }
 
 .sidebar ul {
