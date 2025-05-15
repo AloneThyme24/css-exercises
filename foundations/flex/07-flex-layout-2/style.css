@@ -14,7 +14,7 @@ body {
   font-weight: 900;
   display: flex;
   align-items: center;
-  padding-left: 16px;
+  padding: 0 16px;
 }
 
 .footer {
@@ -32,33 +32,40 @@ body {
   box-sizing: border-box;
   flex-shrink: 0; /* Keeps sidebar from shrinking */
   padding: 16px;
-  margin-left: -48px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex: 1;
+  padding: 16px;
+  width: 300px;
 }
 
 .middle {
   display: flex; /* Makes sidebar and cards sit in a row */
   flex-grow: 1; /* Ensures this section fills the available space */
-  flex-wrap: wrap; /* Enables card to wrap when space runs out */
-  padding: 48px;
-  gap: 16px; /* Adds space between cards */
-  align-items: stretch;
 }
 
-.sidebar ul {
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.sidebar a {
+li {
+  margin-bottom: 16px;
+}
+
+a {
   font-size: 24px;
   color: white;
   text-decoration: none;
+}
+
+.cards {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
 }
